@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello depuis OpenShift Sandbox avec Flask!"
+    return "Hello c'est ma premiere modification OpenShift Sandbox avec Flask!"
 
 @app.route("/about")
 def about():
